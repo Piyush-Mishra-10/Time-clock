@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="clock" >
+            <div class="container">
+                <h2 id="hour">00</h2>
+                <h2 class="dot">:</h2>
+                <h2 id="minutes">00</h2>
+                <h2 class="dot">:</h2>
+                <h2 id="seconds">00</h2>
+                <span id="ampm">AM</span>
+            </div>
+        </div>
+        <div id="square"></div>
+        <div id="square"></div>
+        <div id="square"></div>
+    </section>
+    
+    <!---------------script-----------------------------
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        
+        VanillaTilt.init(document.querySelector(".container"), {
+            max: 25,
+            speed: 400
+        });
+        
+        
+        </script> -->
+        <script src="js.js"></script>
+
+</body>
+
+</html>
